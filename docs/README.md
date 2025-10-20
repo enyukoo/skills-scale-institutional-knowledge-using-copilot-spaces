@@ -12,7 +12,9 @@ Development follows a pull request workflow that prioritizes small PRs (ideally 
 
 ## Personas, Roles, and Communication Channels
 
-OctoAcme projects are staffed with clearly defined roles: Project Managers coordinate delivery, schedules, risk, and communications; Product Managers define outcomes, prioritize the backlog, and measure success; Developers implement features and collaborate on design and testability; and QA/Testing validates quality and acceptance criteria. Communication cadence is structured around weekly syncs between PM and Product Manager, twice-weekly standups for the delivery team (or as agreed), and monthly stakeholder updates, with ad-hoc escalations as needed. Developers typically communicate through daily standups, sprint planning sessions, PR descriptions and code review comments, and technical design documents when required. Stakeholder communication uses a single source of truth (often the project README or release document) and follows templates for weekly status updates (progress, next steps, risks/blockers, decisions needed) and incident communications.
+OctoAcme projects are staffed with clearly defined roles: Project Managers coordinate delivery, schedules, risk, and communications; Product Managers define outcomes, prioritize the backlog, and measure success; Developers implement features and collaborate on design and testability; QA Leads define test strategy and validate quality; Release Managers coordinate deployments; UX Designers create user-centered designs; Support Engineers provide customer support; and Automation Specialists build CI/CD pipelines. For comprehensive role definitions and interactions, see the [Roles and Personas](octoacme-roles-and-personas.md) document.
+
+Communication cadence is structured around weekly syncs between PM and Product Manager, twice-weekly standups for the delivery team (or as agreed), and monthly stakeholder updates, with ad-hoc escalations as needed. For detailed communication patterns, templates, and cross-team collaboration guidelines, see the [Cross-Team Communication Guide](octoacme-cross-team-communication-guide.md). Teams also benefit from using the [Role Handoff Checklist](octoacme-role-handoff-checklist.md) for smooth transitions and the [Release Responsibility Matrix](octoacme-release-responsibility-matrix.md) for clear ownership during releases.
 
 ## Quality Assurance Practices and Limitations
 
@@ -21,3 +23,20 @@ Quality assurance at OctoAcme is integrated throughout the development lifecycle
 ---
 
 **Note:** This overview is synthesized from the OctoAcme process documentation. For detailed guidance on specific workflows, refer to the individual process documents in this directory or consult the [Development Guide](how-to-develop.md) for comprehensive development-specific instructions.
+
+## Complete Documentation Index
+
+### Core Process Documents
+- [Project Management Overview](octoacme-project-management-overview.md) - High-level introduction to OctoAcme's project approach
+- [Project Initiation](octoacme-project-initiation.md) - How to start a new project
+- [Project Planning](octoacme-project-planning.md) - Planning activities, backlog management, and risk identification
+- [Execution & Tracking](octoacme-execution-and-tracking.md) - Day-to-day execution, workflows, and progress tracking
+- [Release & Deployment](octoacme-release-and-deployment.md) - Release types, deployment checklists, and rollback procedures
+- [Risk Management & Communication](octoacme-risks-and-communication.md) - Risk lifecycle and stakeholder communication
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Learning and improvement practices
+
+### Team Collaboration Resources
+- [Roles and Personas](octoacme-roles-and-personas.md) - Detailed definitions for all team roles and their interactions
+- [Role Handoff Checklist](octoacme-role-handoff-checklist.md) - Ensure smooth transitions when responsibilities change
+- [Release Responsibility Matrix](octoacme-release-responsibility-matrix.md) - RACI matrix for release activities
+- [Cross-Team Communication Guide](octoacme-cross-team-communication-guide.md) - Communication patterns, templates, and best practices
